@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: tomato;
+}
+
+.wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.con{
+    width: 30%;
+    border: 1px solid white;
+    margin: 10px;
+    border-radius: 10px;
+    padding-bottom: 30px;
+    background-color: white;
+    height: 100;
+
+
+}
+
+h1, h2, p{
+    font-family: noto sans;
+}
+
+h1{
+    background-color: tomato;
+    text-align: center;
+    padding: 30px 10px;
+    border-radius: 10px 10px 0 0;
+    color: white;
+}
+
+h2{
+    padding: 20px 10px 10px 10px;
+    font-size: 20px;
+}
+
+p{
+    padding: 10px 10px 30px 10px;
+    font-size: 14px;
+}
